@@ -1,6 +1,6 @@
-=== VÌdeo Destacado ===
+=== V√≠deo Destacado ===
 Contributors: airtonvancin
-Donate link: htttp://www.vancindesign.com.br
+Donate link: http://www.vancindesign.com.br/contato.php
 Tags: video, destacado, destaque, post, page, post type
 Requires at least: 3.0
 Tested up to: a 3.0
@@ -8,33 +8,44 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Inserir um vÌdeo destacado do Youtube, para posts, p·ginas e custom post types
+Inserir um v√≠deo destacado do Youtube, para posts, p√°ginas e custom post types
 
 == Description ==
 
-Inserir um vÌdeo destacado do Youtube, para posts, p·ginas e custom post types
+Inserir um v√≠deo destacado do Youtube, para posts, p√°ginas e custom post types
 
 == Installation ==
 
-1. Descompacte o arquivo para este arquivo para o 'wp-content/plugins /' diretÛrio dentro do WordPress
+1. Descompacte o arquivo para este arquivo para o 'wp-content/plugins /' diret√≥rio dentro do WordPress
 
-	* Manter a estrutura de diretÛrio do arquivo (todos os arquivos extraÌdos deve existir em 'wp-content/plugins/video-destacado/'
+	* Manter a estrutura de diret√≥rio do arquivo (todos os arquivos extra√≠dos deve existir em 'wp-content/plugins/video-destacado/'
 
 == FAQ ==
 
-= … possÌvel seugerir modificaÁıes e idÈias para este plugin? 
+= √â poss√≠vel seugerir modifica√ß√µes e id√©ias para este plugin? 
 
-Claro que pode, para isso acesse o link [VÌdeo Destacado](htttp://www.vancindesign.com.br/contato)
+Claro que pode, para isso acesse o link [V√≠deo Destacado](htttp://www.vancindesign.com.br/contato)
 
 
 == Screenshots ==
 
+1. Como sera exibido no admin o v√≠deo destacado
 
+== Frequently Asked Questions ==
+
+= Como exibir no post o v√≠deo? =
+
+Adicionar o seguinte c√≥digo
+
+== Upgrade Notice ==
+
+= 0.1 =
+Exibi o v√≠deo destacado no post ou p√°gina.
 
 == Changelog ==
 
 = 0.1 =
-Exibi o vÌdeo destacado no post ou p·gina.
+Exibi o v√≠deo destacado no post ou p√°gina.
 
 
 == License ==
