@@ -60,8 +60,9 @@ function video_destaque_metabox_save( $post_id ){
 
 function video_destacado(){
     $values = get_post_custom( $post->ID );
-    $id_video = isset( $values['id_video'] ) ? esc_attr( $values['id_video'][0] ) : '';          
-    echo $id_video; 
+    $id_video = isset( $values['id_video'] ) ? esc_attr( $values['id_video'][0] ) : '';    
+    $iframe = "<iframe width='560' height='315' src='http://www.youtube.com/embed/".$id_video."' frameborder='0' allowfullscreen></iframe>";    
+    echo $iframe; 
 }
 
 function vd_scripts() {
