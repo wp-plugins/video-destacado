@@ -21,8 +21,7 @@ Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 2. Manter a estrutura de diretório do arquivo, todos os arquivos extraídos deve existir em 'wp-content/plugins/video-destacado/'
 
 = Inserir o seguinte códgigo dentro do loop = 
-**Usage:** `[wufoo username="chriscoyier" formhash="x7w3w3" autoresize="true" height="458" header="show" ssl="true"]`
-'testesstastaset'	
+'[]'	
 
 
 == FAQ ==
