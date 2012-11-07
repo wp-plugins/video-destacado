@@ -1,4 +1,4 @@
-﻿=== Vídeo Destacado ===
+=== Vídeo Destacado ===
 Contributors: airtonvancin
 Donate link: http://www.vancindesign.com.br/contato.php
 Tags: video, destacado, destaque, post, page, post type, youtube, adicionar, add, vídeo post
@@ -6,8 +6,6 @@ Requires at least: 3.0
 Tested up to: a 3.0
 Stable tag: trunk
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 
 == Description ==
@@ -23,9 +21,7 @@ Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 = Inserir o seguinte códgigo dentro do loop = 
 <code><?php video_destacado(); ?></code>
 
-
 == FAQ ==
-
 = É possível seugerir modificações e idéias para este plugin? =
 
 Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato)
@@ -54,8 +50,7 @@ Exibi o vídeo destacado no post ou página.
 
 == License ==
 
-This file is part of Nome do teu Plugin.
-Nome do teu Plugin is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published
+Vídeo Destacado is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published
 by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 Nome do teu Plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
@@ -63,4 +58,5 @@ You should have received a copy of the GNU General Public License along with Nom
 
 == Support ==
 
-* Visit http://www.vancindesign.com.br/contatos.php for help documentation.
+* Visit [Site](http://www.vancindesign.com.br/contatos.php)
+* Visit [Github](https://github.com/airton/video-destacado)
