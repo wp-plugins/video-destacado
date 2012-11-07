@@ -14,9 +14,9 @@ function video_add_metaboxes(){
     add_meta_box( 'video_destaque_metabox', 'Vídeo Destacado', 'video_destaque_metabox', 'post', 'side', 'high' );
 }
 function video_destaque_metabox(){
-        $values = get_post_custom( $post->ID );
-        $id_video       = isset( $values['id_video'] ) ? esc_attr( $values['id_video'][0] ) : '';
-/*        $titulo_video   = isset( $values['titulo_video'] ) ? esc_attr( $values['titulo_video'][0] ) : '';
+        $values     = get_post_custom( $post->ID );
+        $id_video   = isset( $values['id_video'] ) ? esc_attr( $values['id_video'][0] ) : '';
+/*      $titulo_video   = isset( $values['titulo_video'] ) ? esc_attr( $values['titulo_video'][0] ) : '';
         $desc_video     = isset( $values['desc_video'] ) ? esc_attr( $values['desc_video'][0] ) : '';*/
         wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );
 
@@ -26,7 +26,7 @@ function video_destaque_metabox(){
 
         <ul id='video-destaque'>
             <li><span>ID do Vídeo:</span> <input type="text" id="id_video" name="id_video" value="<? echo $id_video ?>" /><small>Ex: www.youtube.com/watch?v=<b>XdMD4LrC4wY</b></small></li>
-<!--             <li><span>Título:</span> <input type="text" id="titulo_video" name="titulo_video" value="<? //echo $titulo_video ?>" /></li>
+<!--        <li><span>Título:</span> <input type="text" id="titulo_video" name="titulo_video" value="<? //echo $titulo_video ?>" /></li>
             <li><span>Descrição:</span> <input type="text" id="desc_video" name="desc_video" value="<? //echo $desc_video ?>" /></li> -->
             <li><input type="button" tabindex="3" value="Adicionar" class="button add"><input type="button" tabindex="3" value="Remover" class="button del"></li>
         </ul>
