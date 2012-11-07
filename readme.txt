@@ -1,7 +1,7 @@
 === Vídeo Destacado ===
 Contributors: airtonvancin
 Donate link: http://www.vancindesign.com.br/contato.php
-Tags: video, destacado, destaque, post, page, post type
+Tags: video, destacado, destaque, post, page, post type, youtube, adicionar, add, vídeo post
 Requires at least: 3.0
 Tested up to: a 3.0
 Stable tag: trunk
@@ -16,13 +16,13 @@ Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 
 == Installation ==
 
-1. Descompacte o arquivo para este arquivo para o 'wp-content/plugins /' diretório dentro do WordPress
+= 1. Descompacte o arquivo para este arquivo para o 'wp-content/plugins /' diretório dentro do WordPress =
 
 	* Manter a estrutura de diretório do arquivo (todos os arquivos extraídos deve existir em 'wp-content/plugins/video-destacado/'
 
 == FAQ ==
 
-= É possível seugerir modificações e idéias para este plugin? 
+= É possível seugerir modificações e idéias para este plugin? =
 
 Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato)
 
