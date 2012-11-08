@@ -8,9 +8,13 @@ Stable tag: trunk
 License: GPLv2 or later
 Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 
+
+
 == Description ==
 
 Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
+
+
 
 == Installation ==
 
@@ -21,33 +25,40 @@ Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 = Inserir o seguinte códgigo dentro do loop = 
 <code><?php video_destacado(); ?></code>
 
-== FAQ ==
-= É possível seugerir modificações e idéias para este plugin? =
-Inserir o seguinte códgigo dentro do loop:
-<code><?php video_destacado(); ?></code>
-
-Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato)
 
 
 == Screenshots ==
 
 1. Como sera exibido no admin o vídeo destacado
 
+
+
 == Frequently Asked Questions ==
 
 = Como exibir no post o vídeo? =
+Inserir o seguinte códgigo dentro do loop:
+<code><?php video_destacado(); ?></code>
 
-Adicionar o seguinte código
+= É possível seugerir modificações e idéias para este plugin? =
+
+Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato)
+
+
+
 
 == Upgrade Notice ==
 
 = 0.1 =
 Exibi o vídeo destacado no post ou página.
 
+
+
 == Changelog ==
 
 = 0.1 =
 Exibi o vídeo destacado no post ou página.
+
+
 
 
 == License ==
