@@ -23,6 +23,8 @@ Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 
 == FAQ ==
 = É possível seugerir modificações e idéias para este plugin? =
+Inserir o seguinte códgigo dentro do loop:
+<code><?php video_destacado(); ?></code>
 
 Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato)
 
