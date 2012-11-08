@@ -22,9 +22,28 @@ Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 1. Descompacte o arquivo para este arquivo para o 'wp-content/plugins /' diretório dentro do WordPress
 2. Manter a estrutura de diretório do arquivo, todos os arquivos extraídos deve existir em 'wp-content/plugins/video-destacado/'
 
-= Inserir o seguinte códgigo dentro do loop = 
+= Inserir o seguinte código dentro do loop = 
 <code><?php video_destacado(); ?></code>
 
+= Ex: = 
+<code>
+<?php
+
+// The Query
+query_posts( $args );
+
+// The Loop
+while ( have_posts() ) : the_post();
+	
+	video_destacado();
+
+endwhile;
+
+// Reset Query
+wp_reset_query();
+
+?>
+</code>
 
 
 == Screenshots ==
