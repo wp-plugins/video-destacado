@@ -8,9 +8,13 @@ Stable tag: trunk
 License: GPLv2 or later
 Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 
+
+
 == Description ==
 
 Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
+
+
 
 == Installation ==
 
@@ -18,36 +22,62 @@ Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 1. Descompacte o arquivo para este arquivo para o 'wp-content/plugins /' diretório dentro do WordPress
 2. Manter a estrutura de diretório do arquivo, todos os arquivos extraídos deve existir em 'wp-content/plugins/video-destacado/'
 
-= Inserir o seguinte códgigo dentro do loop = 
+= Inserir o seguinte código dentro do loop = 
 <code><?php video_destacado(); ?></code>
 
-== FAQ ==
-= É possível seugerir modificações e idéias para este plugin? =
-Inserir o seguinte códgigo dentro do loop:
-<code><?php video_destacado(); ?></code>
+= Ex: = 
+<code>
+<?php
 
-Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato)
+// The Query
+query_posts( $args );
+
+// The Loop
+while ( have_posts() ) : the_post();
+	
+	video_destacado();
+
+endwhile;
+
+// Reset Query
+wp_reset_query();
+
+?>
+</code>
 
 
 == Screenshots ==
 
 1. Como sera exibido no admin o vídeo destacado
 
+
+
 == Frequently Asked Questions ==
 
 = Como exibir no post o vídeo? =
+Inserir o seguinte códgigo dentro do loop:
+<code><?php video_destacado(); ?></code>
 
-Adicionar o seguinte código
+= É possível seugerir modificações e idéias para este plugin? =
+
+Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato)
+
+
+
 
 == Upgrade Notice ==
 
 = 0.1 =
 Exibi o vídeo destacado no post ou página.
 
+
+
 == Changelog ==
 
 = 0.1 =
 Exibi o vídeo destacado no post ou página.
+
+
 
 
 == License ==
