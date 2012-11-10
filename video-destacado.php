@@ -25,7 +25,7 @@ function video_destaque_metabox(){
         $values     = get_post_custom( $post->ID );
         $id_video   = isset( $values['id_video'] ) ? esc_attr( $values['id_video'][0] ) : '';
 
-/*      $titulo_video   = isset( $values['titulo_video'] ) ? esc_attr( $values['titulo_video'][0] ) : '';
+      /*$titulo_video   = isset( $values['titulo_video'] ) ? esc_attr( $values['titulo_video'][0] ) : '';
         $desc_video     = isset( $values['desc_video'] ) ? esc_attr( $values['desc_video'][0] ) : '';*/
         wp_nonce_field( 'my_meta_box_nonce', 'meta_box_nonce' );           
 
