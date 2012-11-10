@@ -60,7 +60,7 @@ Inserir o seguinte código dentro do loop
 
 = É possível seugerir modificações e idéias para este plugin? =
 
-Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato)
+Claro que pode, para isso acesse o link [Vídeo Destacado](htttp://www.vancindesign.com.br/contato.php)
 
 
 
