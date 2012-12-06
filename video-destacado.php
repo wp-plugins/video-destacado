@@ -74,9 +74,9 @@ function video_destacado(){
 }
 
 function vd_scripts() {
-    wp_deregister_script( 'jquery' );
+    /*wp_deregister_script( 'jquery' );
     wp_register_script( 'jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js');
-    wp_enqueue_script( 'jquery' );
+    wp_enqueue_script( 'jquery' );*/
 
     wp_register_script('my-upload', plugins_url('video-destacado') . '/js/vd-admin.js');
     wp_enqueue_script('my-upload');
