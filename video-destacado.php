@@ -97,8 +97,10 @@ function video_destacado(){
     $height_video = isset( $values['height_video'] ) ? esc_attr( $values['height_video'][0] ) : ''; 
     if(empty($height_video)){ $height_video = 315; }  
 
+    if(!empty($id_video)):
     $iframe = "<iframe width='".$width_video."' height='".$height_video."' src='http://www.youtube.com/embed/".$id_video."' frameborder='0' allowfullscreen></iframe>";    
     echo $iframe; 
+    endif;
 }
 
 function vd_scripts() {
