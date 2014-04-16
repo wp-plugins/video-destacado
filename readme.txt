@@ -3,7 +3,7 @@ Contributors: airtonvancin
 Donate link: http://www.vancindesign.com.br/contatos.php
 Tags: video, destacado, destaque, post, page, post type, youtube, adicionar, add, vídeo post
 Requires at least: 3.0
-Tested up to: a 3.5.1
+Tested up to: a 3.9
 Stable tag: 0.2
 License: GPLv2 or later
 Insert a video posted to Youtube for posts, pages and custom post types
