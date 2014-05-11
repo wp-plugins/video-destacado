@@ -20,6 +20,10 @@ Insert a video posted to Youtube for posts, pages and custom post types
 1. Unzip the file to the plugins folder of the 'wp-content/plugins/' directory inside of WordPress
 2. Keep the directory structure of the file, all extracted files should exist in 'wp-content/plugins/video-destacado/'
 
+= 1.0 =
+add page settings
+Settings > Vídeo Destacado
+
 = Version 0.2 =
 Add width and height of the player
 
