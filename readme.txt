@@ -22,6 +22,7 @@ Insert a video posted to Youtube for posts, pages and custom post types
 
 = 1.0 =
 add page settings
+
 Settings > Vídeo Destacado
 
 = Version 0.2 =
@@ -57,6 +58,7 @@ wp_reset_query();
 == Screenshots ==
 
 1. As will be shown in the video featured admin
+2. Settings page
 
 
 
