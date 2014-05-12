@@ -1,6 +1,6 @@
 === Vídeo Destacado ===
 Contributors: airtonvancin
-Donate link: http://www.vancindesign.com.br/
+Donate link: https://pagseguro.uol.com.br/checkout/v2/donation.html?currency=BRL&receiverEmail=chapolinsk@hotmail.com
 Tags: video, destacado, destaque, post, page, post type, youtube, adicionar, add, vídeo post
 Requires at least: 3.0
 Tested up to: a 3.9
