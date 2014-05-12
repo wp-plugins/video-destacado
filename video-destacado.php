@@ -2,6 +2,7 @@
 
 /*
 Plugin Name: Vídeo Destacado
+Plugin URI: https://github.com/airton/video-destacado
 Description: Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
 Version: 1.0
 License: GPL
@@ -14,6 +15,17 @@ Author URI: http://www.vancindesign.com.br
 */
 include_once ('video-destacado-settings.php');
 
+// Add settings link on plugin page
+function video_destacado_settings_link($links) { 
+	$settings_link = '<a href="options-general.php?page=video-destacado.php">Settings</a>'; 
+	array_unshift($links, $settings_link); 
+	return $links; 
+}
+
+$plugin = plugin_basename(__FILE__); 
+add_filter("plugin_action_links_$plugin", 'video_destacado_settings_link' );
+
+
 add_action( 'add_meta_boxes', 'video_add_metaboxes' );
 function video_add_metaboxes(){
     $post_types = get_post_types( array( 'public' => true ) );
@@ -23,6 +35,7 @@ function video_add_metaboxes(){
         }
     }
 }
+
 function video_destaque_metabox(){
     $values         = get_post_custom( $post->ID );
     $id_video       = isset( $values['id_video'] ) ? esc_attr( $values['id_video'][0] ) : '';
