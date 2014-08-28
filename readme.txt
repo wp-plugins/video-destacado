@@ -58,11 +58,17 @@ wp_reset_query();
 
 
 == Frequently Asked Questions ==
+
 = How to display the video in the post? =
 Insert the following code inside the loop
+<code><?php video_destacado(); ?></code>
+or
+<code><?php echo get_video_destacado(); ?></code>
 
 = You can suggest modifications and ideas for this plugin? =
-Sure you can, go to this link [Featured Video] (https://github.com/airton/video-destacado)
+
+Sure you can, go to this link [Featured Video] (https://github.com/airton/)
+
 
 == Screenshots ==
 1. As will be shown in the video featured admin
