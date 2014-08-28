@@ -12,8 +12,8 @@ Insert a video posted to Youtube for posts, pages and custom post types
 Insert a video posted to Youtube for posts, pages and custom post types
 
 == Installation ==
-1. Unzip the file to the plugins folder of the \'wp-content/plugins/\' directory inside of WordPress
-2. Keep the directory structure of the file, all extracted files should exist in \'wp-content/plugins/video-destacado/\'
+1. Unzip the file to the plugins folder of the '/wp-content/plugins/' directory inside of WordPress
+2. Keep the directory structure of the file, all extracted files should exist in '/wp-content/plugins/video-destacado/'
 
 = Enter the following code inside the loop =
 <code><?php video_destacado(); ?></code>
