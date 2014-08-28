@@ -3,11 +3,11 @@
 /*
 Plugin Name: Vídeo Destacado
 Plugin URI: https://github.com/airton/video-destacado
-Description: Inserir um vídeo destacado do Youtube, para posts, páginas e custom post types
-Version: 1.0
+Description: Insert a video posted to Youtube for posts, pages and custom post types
+Version: 1.1
 License: GPL
 Author: Airton Vancin Junior
-Author URI: http://www.vancindesign.com.br
+Author URI: https://github.com/airton/
 */
 
 /*
@@ -110,6 +110,21 @@ function video_destacado(){
     if(!empty($id_video)):
     $iframe = "<iframe width='".$width_video."' height='".$height_video."' src='http://www.youtube.com/embed/".$id_video."' frameborder='0' allowfullscreen></iframe>";
     echo $iframe;
+    endif;
+}
+
+function get_video_destacado(){
+	$values = get_post_custom( $post->ID );
+    $id_video = isset( $values['id_video'] ) ? esc_attr( $values['id_video'][0] ) : '';
+
+    $width_video = isset( $values['width_video'] ) ? esc_attr( $values['width_video'][0] ) : '';
+    if(empty($width_video)){ $width_video = 560; }
+    $height_video = isset( $values['height_video'] ) ? esc_attr( $values['height_video'][0] ) : '';
+    if(empty($height_video)){ $height_video = 315; }
+
+    if(!empty($id_video)):
+    $iframe = "<iframe width='".$width_video."' height='".$height_video."' src='http://www.youtube.com/embed/".$id_video."' frameborder='0' allowfullscreen></iframe>";
+    return $iframe;
     endif;
 }
 
