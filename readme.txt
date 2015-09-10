@@ -3,7 +3,7 @@ Contributors: airtonvancin
 Tags: video,videos,featured,post,page,post type,youtube,add
 Donate link: https://pagseguro.uol.com.br/checkout/v2/donation.html?currency=BRL&receiverEmail=chapolinsk@hotmail.com
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.3
 Stable tag: 1.1
 
 Insert a video posted to Youtube for posts, pages and custom post types
