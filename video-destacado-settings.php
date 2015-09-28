@@ -60,15 +60,15 @@
 			<table width="100%" class="widefat">
 				<thead>
 					<tr>
-						<th style="" class="manage-column column-cb check-column" id="cb" scope="col">
+						<td style="" class="manage-column column-cb check-column" id="cb" scope="col">
 							<label for="cb-select-all" class="screen-reader-text">Selecionar Tudo</label>
 							<input type="checkbox" id="cb-select-all">
-						</th>
-						<th style="" class="manage-column column-title sortable desc" id="title" scope="col">
+						</td>
+						<td style="" class="manage-column column-title sortable desc" id="title" scope="col">
 							<a href="<?php echo admin_url(); ?>&amp;orderby=title&amp;order=asc">
 								<span><b>Post Type</b></span>
 							</a>
-						</th>
+						</td>
 					</tr>
 				</thead>
 				<tbody>
