@@ -75,6 +75,9 @@ Sure you can, go to this link [Featured Video] (https://github.com/airton/)
 2. Settings page
 
 == Changelog ==
+
+= 1.2 =
+
 = 1.1 =
 Add function get_video_destacado();
 
