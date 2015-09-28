@@ -4,7 +4,7 @@
 Plugin Name: Vídeo Destacado
 Plugin URI: https://github.com/airton/video-destacado
 Description: Insert a video posted to Youtube for posts, pages and custom post types
-Version: 1.1
+Version: 1.2
 License: GPL
 Author: Airton Vancin Junior
 Author URI: https://github.com/airton/
